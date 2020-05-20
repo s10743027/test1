@@ -3,11 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<style>
+	body {	background-color: #00B200;
+	}
+	</style>	
 </head>
 <body>
-	<table style="border:3px #cccccc solid;" cellpadding="10" border='1'>
-	<tr><td><img src="01.jpg" height="200" width="300"></td><td><iframe width="560" height="315" src="https://www.youtube.com/embed/hPOUNK9_fBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td></tr>
-	<tr><td><img src="02.jpg" height="200" width="300"></td><td><img src="03.jpg" height="200" width="300"></td></tr>
-</table>
-</body>
+	<div id="nav"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$("#nav").load( "nav.html");
+</script>
+
+	<p>this is test4.</p>
 </html>
