@@ -18,11 +18,29 @@
 		<input type="password" pattern="[a-zA-Z0-9]{8,}"><br><br>
 		<label for="phone">Your phone number:</label><br><br>
 		<input type="tel" id="phone" name="phone" placeholder="0912-123123" pattern="[0-9]{4}-{0-9}{6}"><br><br>
-
-		<textarea cols="50" rows="5">
-　			輸入你想要寫的內容...
-		</textarea>
+		<label for="phone">textarea</label><br><br>
+		<textarea style="width:300px;height:100px;"></textarea><br><br>
 		
+		<label for="phone">Location</label><br><br>
+		<select name="YourLocation">
+		<option value="Taipei"><科管系/option>
+		<option value="Taoyuan">醫管系</option>
+		<option value="Hsinchu">行管系</option>
+		<option value="Miaoli">護理系</option>
+		<option value="Miaoli">醫放系</option>
+		</select><br><br>
+		
+		<label for="phone"> number of choices</label><br><br>
+		<input type="radio" id="male" name="gender" value="male">
+		<label for="male">0-30</label><br>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">31-60</label><br>
+		<input type="radio" id="other" name="gender" value="other">
+		
+		<label for="phone">Checkboxes </label><br><br>
+		<input type="checkbox" value="Travel" name="Interest"> i have a hike<br>
+		<input type="checkbox" value="Movie" name="Interest">i have a car <br>
+		<input type="checkbox" value="Food" name="Interest"> i have a boat<br>
 		<input type="submit" value="送出表單"/>
 	</form>
 </body>
